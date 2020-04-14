@@ -17,7 +17,6 @@ def checkForFolders(folder, folder_name):
     
 
 def getNewFiles(dir):
-    global folder_layer, files
     try:
         new_files = listdir(dir)
     except Exception as e:
